@@ -11,7 +11,7 @@ public interface IProductService {
 
     void save(Product product);
 
-    void delete(Product product);
+    void deleteById(Long id);
 
     List<Product> findByPriceInRange(BigDecimal min, BigDecimal max);
 }
